@@ -1,0 +1,56 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Alacritty
+# Version:    0.1.0
+# Repository: https://github.com/arcticicestudio/nord-alacritty
+# License:    MIT
+# References:
+#   https://github.com/alacritty/alacritty
+
+# Colors (Nord)
+colors:
+   # Default colors
+   primary:
+     background: '#003049'
+     foreground: '#eae2b7'
+
+   # Normal colors
+   normal:
+     black:   '#3B4252'
+     red:     '#bb3e03'
+     green:   '#A3BE8C'
+     yellow:  '#ee9b00'
+     blue:    '#0077b6'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#eae2b7'
+
+   # Bright colors
+   bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#ffb703'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#219ebc'
+     white:   '#eae2b7'
+
+
+key_bindings:
+    - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+background_opacity: 1.00
+window:
+  padding:
+    x: 20
+    y: 20
+font:
+  normal:
+    family: JetbrainsMonoNL
+    style: Regular
+  size: 12
+live_config_reload: true
+dynamic_padding: true
+shell:
+   program: /bin/fish
